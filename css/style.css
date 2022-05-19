@@ -359,6 +359,7 @@ textarea {
   .projects__row:last-child {
     margin-bottom: 0; }
   .projects__row-img-cont {
+    margin-top: 5rem;
     overflow: hidden; }
   .projects__row-img {
     width: 100%;
@@ -562,6 +563,7 @@ textarea {
 .project-details__content {
   padding: 8rem 0;
   max-width: 90rem;
+  text-align: center;
   margin: auto; }
   .project-details__content-title {
     font-weight: 700;
@@ -573,7 +575,8 @@ textarea {
 
 .project-details__showcase-img-cont {
   width: 100%;
-  margin-bottom: 6rem; }
+  margin-bottom: 6rem; 
+  text-align: center;}
 
 .project-details__showcase-img {
   width: 100%; }
@@ -1094,6 +1097,7 @@ textarea {
     }
     .carousel {
       position: relative;
+      margin: 0 auto;
     }
     
     .carousel.pointer-event {
@@ -1107,6 +1111,10 @@ textarea {
       overflow: hidden;
     }
     
+    .carousel-inner img {
+      margin: auto;
+    }
+
     .carousel-inner::after {
       display: block;
       clear: both;
